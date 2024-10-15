@@ -11,6 +11,7 @@
             background-color: #faf3e0;
             margin: 0;
             padding: 0;
+            scroll-behavior: smooth; /* Smooth scrolling */
         }
         header {
             background-color: #6b4226;
@@ -32,19 +33,22 @@
             text-decoration: none;
             color: #6b4226;
             font-size: 18px;
+            transition: color 0.3s; /* Hover effect */
+        }
+        nav a:hover {
+            color: #d2a36c; /* Change color on hover */
         }
         section {
             padding: 20px;
             max-width: 900px;
             margin: auto;
-        }
-        .portfolio-item {
-            background-color: #fff;
-            border: 1px solid #ddd;
-            padding: 15px;
-            margin-bottom: 20px;
+            background-color: #fff; /* Light background for sections */
             border-radius: 10px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .portfolio-item {
+            margin-bottom: 20px;
+            border-radius: 10px;
         }
         .portfolio-item img {
             max-width: 100%;
